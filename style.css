@@ -1,0 +1,55 @@
+body{
+    padding: 2%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.sidebar{
+    width: 15%;
+    height: 117px;
+    background-image: linear-gradient(orangered, red);
+    margin-left: 20px;
+    border-radius: 5px;
+    color: orangered;
+    margin-top: 53px;
+    margin-right: 10px;
+}
+.title-color{
+    color: orangered;
+}
+.first-section{
+    display: flex;
+    width: 100%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(230, 92, 42), red);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+.my-experience{
+    text-align: center;
+}
+.blue-color{
+    color: blue;
+}
+.custom-wordpress{
+    width: 300px;
+    border: 1px solid skyblue;
+}
+.custom-img{
+    width: 100%;
+    background-image: url(./illustrator-1.png);
+
+}
