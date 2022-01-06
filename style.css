@@ -1,7 +1,10 @@
 body{
-    padding: 2%;
+    padding: 0%;
     margin: 0%;
     font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-right: 10px;
+    overflow-x: hidden;
 }
 h1{
     font-size: 40px;
@@ -25,7 +28,7 @@ h1{
     padding-left: 2%;
     padding-bottom: 3%;
     outline-width: 100%;
-    
+    margin-left: 5%;
 }
 .half-width{
     width: 50%;
@@ -44,7 +47,8 @@ h1{
     text-align: center;
 }
 .blue-color{
-    color: blue;
+    color: rgb(1, 1, 75);
+    font-style: oblique;
 }
 .custom-wordpress{
     width: 300px;
@@ -58,8 +62,12 @@ h1{
     width: 300px;
     border: 1px solid skyblue;
     padding-left: 10px;
+    box-shadow: #c3e3f0;
+    background-color: rgb(245, 183, 101);
+    border-radius: 5%;
 }
-.wordpress-img{ width: 100%}
+.wordpress-img{ width: 100%;
+}
 .wordpress-img img{ 
     width: 60%;
 }
@@ -68,6 +76,28 @@ h1{
     justify-content: space-around;
     padding-left: 5%;
     padding-bottom: 3%;
+}
+.bonus-section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    box-shadow: tomato;
+    text-align: center;
+    color: rgb(68, 11, 68);
+}
+.contact{
+    position: absolute;
+    text-decoration: burlywood;
+    background-image: linear-gradient(rgb(230, 92, 42), red);
+    padding: 10px 40px;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+.about-me{
+    padding-top: 5%;
+    position: center;
 }
 footer{
     text-align: center;
@@ -79,4 +109,5 @@ footer{
 }
 .white-color{
     color: white;
+    font-style: italic bold;
 }
